@@ -1,0 +1,17 @@
+html {
+    color: #222;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    background-color: #fff;
+    overflow-y: scroll;
+    direction: ltr;
+}
+#header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1001;
+    background-color: #fff;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+}

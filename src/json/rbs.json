@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "name": "ember",
+    "lvl": 80,
+    "time": 280,
+    "live": 0
+  },
+  {
+    "id": 1,
+    "name": "khaki",
+    "lvl": 78,
+    "time": 120,
+    "live": 1
+  },
+  {
+    "id": 2,
+    "name": "zaken",
+    "lvl": 75,
+    "time": 450,
+    "live": 1
+  }
+]
