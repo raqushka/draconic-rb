@@ -1,23 +1,23 @@
 [
   {
     "id": 0,
-    "name": "ember",
+    "name": "Ember",
     "lvl": 80,
     "time": 280,
-    "live": 0
+    "live": true
   },
   {
     "id": 1,
-    "name": "khaki",
+    "name": "Khaki",
     "lvl": 78,
     "time": 120,
-    "live": 1
+    "live": false
   },
   {
     "id": 2,
-    "name": "zaken",
+    "name": "Zaken",
     "lvl": 75,
     "time": 450,
-    "live": 1
+    "live": true
   }
 ]

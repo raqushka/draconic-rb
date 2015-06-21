@@ -1,7 +1,15 @@
 <div ng-controller="rbListController">
-    <ul>
+    <ul class="rb-list">
         <li ng-repeat="rbList in rbLists">
-            <span>{{rbList.name}}</span>
+            <div class="info">
+                <span class="status"><i class="fa fa-heart fa-lg"></i></span>
+                <span class="name">{{rbList.name}}</span>
+                <span class="lvl">{{rbList.lvl}}</span>
+            </div>
+            <div class="active">
+                <input class="green-button" type="button" value="kill" ng-show="rbList.live"/>
+                <span ng-hide="rbList.live" class="time">03:08:33</span>
+            </div>
         </li>
     </ul>
 </div>

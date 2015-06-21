@@ -30,3 +30,7 @@ dracApp.controller('rbListController', function($scope, $http){
         $scope.rbLists = data;
     });
 });
+
+dracApp.controller('footerController', function($scope){
+    $scope.footerInfo = 'footer';
+});

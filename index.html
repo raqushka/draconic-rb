@@ -5,9 +5,17 @@
     <script src="lib/js/angular-route.js"></script>
     <script src="src/js/main.js"></script>
     <link href="src/css/main.css" rel="stylesheet">
+    <link href="lib/css/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet">
 </head>
 <body>
-    <div id="header">header</div>
+    <div id="header">
+        <span>Draconic.ru</span>
+        <ul class="head-menu icons">
+            <li><input class="search" /><a class="head-menu_controls icon"><i class="fa fa-search"></i></a></li>
+            <li><a class="head-menu_controls icon"><i class="fa fa-user"></i></a></li>
+        </ul>
+    </div>
+    <div id="content">
     <ul>
         <li><a href="#/">home</a></li>
         <li><a href="#about">about</a></li>
@@ -16,6 +24,7 @@
     <div id="main">
         <div ng-view></div>
     </div>
-    <div id="footer">footer</div>
+    </div>
+    <div ng-controller="footerController">{{footerInfo}}</div>
 </body>
 </html>
